@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,7 @@
   "devDependencies": {
     "build": "^0.1.4",
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-watch": "^5.0.1",
     "npm": "^9.8.1",
